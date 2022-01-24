@@ -26,6 +26,6 @@ const GiftExpertApp = (props) => {
             </ol>
         </>
     );
-};S
+}
 
 export default GiftExpertApp;

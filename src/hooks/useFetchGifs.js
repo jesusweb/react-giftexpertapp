@@ -9,7 +9,7 @@ export const useFetchGifs = (category) => {
         loading: true
     });
 
-    React.useEffect(() => {
+    useEffect(() => {
         getGifs(category).then(imgs => setState({
             data: imgs,
             loading: false
